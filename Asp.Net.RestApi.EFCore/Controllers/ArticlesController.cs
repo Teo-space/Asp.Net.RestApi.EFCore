@@ -7,8 +7,6 @@ using UseCases;
 using Web.Forums.Infrastructure.EntityFrameworkCore;
 
 
-
-
 [ApiController]
 [Route("[controller]")]
 public class ArticlesController(AppDbContext appDbContext) : ControllerBase
